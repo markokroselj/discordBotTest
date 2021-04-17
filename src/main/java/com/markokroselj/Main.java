@@ -8,7 +8,7 @@ import discord4j.core.object.entity.channel.MessageChannel;
 
 public class Main {
     public static void main(final String[] args) {
-        final String token = "ODA3MDIxODQ1OTcwODEyOTYx.YBx7qQ.bgooU6UjlEVrB1SCuYDpINsUydc";
+        final String token = "YOUR TOKEN HERE";
         final DiscordClient client = DiscordClient.create(token);
         final GatewayDiscordClient gateway = client.login().block();
 
